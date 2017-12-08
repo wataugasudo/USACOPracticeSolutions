@@ -6,8 +6,8 @@ with open("paint.in", "r") as inFile:
 
 #read farmer & cow's variables as integer list elements
 #(split 1st & 2nd text[] lines at the space,
-#cast/"map" each variable to an integer,
-#convert back to a list from a map() element)
+# cast/"map" each variable to an integer,
+# convert back to a list from a map() element)
 f = list(map(int, text[0].split()))
 c = list(map(int, text[1].split()))
 
