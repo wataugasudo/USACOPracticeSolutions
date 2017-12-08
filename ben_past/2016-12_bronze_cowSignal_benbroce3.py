@@ -1,9 +1,8 @@
 #Solves [http://usaco.org/index.php?page=viewproblem2&cpid=665]
 
-inFile = open('cowsignal.in','r')     #read in
-outFile = open('cowsignal.out','w')  #write out
-
-text = inFile.readlines()   #list of lines in input file
+#Safely read list of String lines from input file
+with open("cowsignal.in", "r") as inFile:
+    text = inFile.readlines()
 
 ctrl = list(map(int, text[0].split()))
 
@@ -13,7 +12,7 @@ for m in range(1, ctrl[0]+1):
     for n in range(ctrl[1]):
         tempString += (text[m][n]*ctrl[2])
     outString += (tempString + "\n")*ctrl[2]
-outFile.write(outString)
 
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("cowsignal.out", "w") as outFile:
+    outFile.write(outString)

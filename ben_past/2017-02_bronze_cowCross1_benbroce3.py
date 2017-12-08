@@ -1,9 +1,8 @@
 #Solves [http://usaco.org/index.php?page=viewproblem2&cpid=711]
 
-inFile = open('crossroad.in','r')   #read in
-outFile = open('crossroad.out','w') #write out
-
-text = inFile.readlines()   #list of lines in input file
+#Safely read list of String lines from input file
+with open("crossroad.in", "r") as inFile:
+    text = inFile.readlines()
 
 total = 0
 pos = [-1]*10
@@ -15,7 +14,7 @@ for i in range(1, int(text[0])+1):
         if pos[tag] != -1:
             total += 1
         pos[tag] = side
-outFile.write(str(total))
 
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("crossroad.out", "w") as outFile:
+    outFile.write(str(total))

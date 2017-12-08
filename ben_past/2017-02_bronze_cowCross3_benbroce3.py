@@ -1,9 +1,8 @@
 #Solves [http://usaco.org/index.php?page=viewproblem2&cpid=713]
 
-inFile = open('cowqueue.in','r')    #read in
-outFile = open('cowqueue.out','w')  #write out
-
-text = inFile.readlines()   #list of lines in input file
+#Safely read list of String lines from input file
+with open("cowqueue.in", "r") as inFile:
+    text = inFile.readlines()
 
 queue = []
 for i in range(1, int(text[0])+1):
@@ -16,7 +15,7 @@ for i in range(0, len(queue)):
         total = queue[i][0] + queue[i][1]
     else:
         total += queue[i][1]
-outFile.write(str(total))
 
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("cowqueue.out", "w") as outFile:
+    outFile.write(str(total))

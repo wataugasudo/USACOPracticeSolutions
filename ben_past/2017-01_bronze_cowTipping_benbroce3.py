@@ -1,9 +1,9 @@
 #Solves [http://usaco.org/index.php?page=viewproblem2&cpid=689]
 
-inFile = open('cowtip.in','r')      #read in
-outFile = open('cowtip.out','w')    #write out
+#Safely read list of String lines from input file
+with open("cowtip.in", "r") as inFile:
+    text = inFile.readlines()
 
-text = inFile.readlines()   #list of lines in input file
 n = int(text[0][:1])
 
 cows = []
@@ -36,10 +36,9 @@ for i in range(2 * n - 1):
     for j in range(len(dcows[i])):
         if cows
 
-        ???????
+####
 
 
-outFile.write("Hello")
-
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("cowtip.out", "w") as outFile:
+    outFile.write("Test")

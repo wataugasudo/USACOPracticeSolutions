@@ -1,9 +1,8 @@
 #Solves [http://usaco.org/index.php?page=viewproblem2&cpid=688]
 
-inFile = open('hps.in','r')     #read in
-outFile = open('hps.out','w')   #write out
-
-text = inFile.readlines()   #list of lines in input file
+#Safely read list of String lines from input file
+with open("hps.in", "r") as inFile:
+    text = inFile.readlines()
 
 h = {"s":1, "p":2, "h":"T"}
 p = {"s":2, "p":"T", "h":1}
@@ -22,7 +21,6 @@ for i in range(0, 6):
             result += 1
     vict[i] = result
 
-outFile.write(str(max(vict)) + "\n")
-
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("hps.out", "w") as outFile:
+    outFile.write(str(max(vict)) + "\n")

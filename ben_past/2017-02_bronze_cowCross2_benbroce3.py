@@ -1,9 +1,10 @@
 #Solves [http://usaco.org/index.php?page=viewproblem2&cpid=712]
 
-inFile = open('circlecross.in','r')     #read in
-outFile = open('circlecross.out','w')   #write out
+#Safely read list of String lines from input file
+with open("circlecross.in", "r") as inFile:
+    text = inFile.readlines()
 
-cows = list(inFile.readlines()[0])   #list of cow IDs
+cows = list(text[0])   #list of cow IDs
 
 def scan(start, end):
     for m in range(start+1, end):
@@ -29,7 +30,6 @@ for i in range(0, len(cows)-1):
         cows[i] = 0
         cows[j] = 0
 
-outFile.write(str(total))
-
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("circlecross.out", "w") as outFile:
+    outFile.write(str(total))

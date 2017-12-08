@@ -1,9 +1,8 @@
 #Solves [http://usaco.org/index.php?page=viewproblem2&cpid=593]
 
-inFile = open('mowing.in','r')      #read in
-outFile = open('mowing.out','w')    #write out
-
-text = inFile.readlines()   #list of lines in input file
+#Safely read list of String lines from input file
+with open("mowing.in", "r") as inFile:
+    text = inFile.readlines()
 
 # setup move list (strings)
 moves = []
@@ -18,10 +17,9 @@ for i in range(moves):
     pos[0] -= moves[i][1] if moves[i][0] = "W"
     pos[1] += moves[i][1] if moves[i][0] = "N"
     pos[1] -= moves[i][1] if moves[i][0] = "S"
-
     
+###
 
-outFile.write(str(moves))
-
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("mowing.out", "w") as outFile:
+    outFile.write(str(moves))

@@ -2,10 +2,10 @@
 
 import itertools
 
-inFile = open('blocks.in','r') #read in
-outFile = open('blocks.out','w') #write out
+#Safely read list of String lines from input file
+with open("blocks.in", "r") as inFile:
+    text = inFile.readlines()
 
-text = inFile.readlines() #list of lines in input file
 N = int(text[0])
 
 def getBoardSide(boardNum, case):
@@ -29,7 +29,6 @@ for c in range(len(combos)):
         if tempResult[i] > result[i]:
             result[i] = tempResult[i]
 
-outFile.write("\n".join(map(str, result)))
-
-inFile.close()
-outFile.close()
+#Safely (create &) write to output file
+with open("blocks.out", "w") as outFile:
+    outFile.write("\n".join(map(str, result)))
