@@ -13,5 +13,7 @@ Python Example:
 
 `#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=567]`
 
+Try to document your code & methods as well as possible (within reason), so that others can understand your approach.
+
 ### Please don't modify others' files without their permission.
 ### Report any formatting errors, suggestions, or inappropriate use as an issue.
