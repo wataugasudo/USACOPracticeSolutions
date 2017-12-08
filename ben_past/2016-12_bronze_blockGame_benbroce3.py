@@ -1,9 +1,9 @@
 import itertools
 
-inFile = open('blocks.in','r')      #read in
-outFile = open('blocks.out','w')    #write out
+inFile = open('blocks.in','r') #read in
+outFile = open('blocks.out','w') #write out
 
-text = inFile.readlines()   #list of lines in input file
+text = inFile.readlines() #list of lines in input file
 N = int(text[0])
 
 def getBoardSide(boardNum, case):
@@ -11,7 +11,8 @@ def getBoardSide(boardNum, case):
 
 result = [0]*26
 
-combos = ["".join(c) for c in itertools.product("01", repeat=N)]    #https://docs.python.org/3/library/itertools.html
+#https://docs.python.org/3/library/itertools.html
+combos = ["".join(c) for c in itertools.product("01", repeat=N)]
 
 for c in range(len(combos)):
     comboChars = ""
