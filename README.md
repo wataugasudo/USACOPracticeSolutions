@@ -14,4 +14,4 @@ Python Example:
 `#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=567]`
 
 ### Please don't modify others' files without their permission.
-### Report any formatting errors, suggestions, or inappropriate use as an issue
+### Report any formatting errors, suggestions, or inappropriate use as an issue.
