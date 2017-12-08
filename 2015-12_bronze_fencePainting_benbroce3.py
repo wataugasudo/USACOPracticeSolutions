@@ -19,13 +19,9 @@ for i in range(f[0], f[1]):
     fence[i] = 1
 for i in range(c[0], c[1]):
     fence[i] = 1
-
-total = 0
-
-#step through fence list, incrementing total by the number
-#found in each position (sum all #s in the list)
-for i in fence:
-    total += i
+    
+#sum all #s in fence list
+total = sum(fence)
 
 #Safely (create &) write to output file
 with open("paint.out", "w") as outFile:
