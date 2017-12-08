@@ -10,5 +10,7 @@
   * `YYYY-MM_level_challengeName_nameTag.extension`
   * Ex: `2015-12_bronze_fencePainting_benbroce3.py`
 
+### Please don't submit solutions to competitions until after they are over
+### (Wait 1-2 days after the last contest day to be safe)
 ### Please don't modify others' files without their permission.
 ### Report any formatting errors, suggestions, or inappropriate use as an issue.
