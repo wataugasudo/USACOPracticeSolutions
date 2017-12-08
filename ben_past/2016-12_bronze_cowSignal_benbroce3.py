@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=665]
+
 inFile = open('cowsignal.in','r')     #read in
 outFile = open('cowsignal.out','w')  #write out
 

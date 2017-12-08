@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=688]
+
 inFile = open('hps.in','r')     #read in
 outFile = open('hps.out','w')   #write out
 

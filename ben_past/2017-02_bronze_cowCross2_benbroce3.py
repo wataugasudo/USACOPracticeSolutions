@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=712]
+
 inFile = open('circlecross.in','r')     #read in
 outFile = open('circlecross.out','w')   #write out
 

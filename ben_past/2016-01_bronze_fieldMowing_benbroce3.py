@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=593]
+
 inFile = open('mowing.in','r')      #read in
 outFile = open('mowing.out','w')    #write out
 

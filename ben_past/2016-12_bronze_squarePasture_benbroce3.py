@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=663]
+
 inFile = open('square.in','r')     #read in
 outFile = open('square.out','w')  #write out
 

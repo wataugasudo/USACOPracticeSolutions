@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=713]
+
 inFile = open('cowqueue.in','r')    #read in
 outFile = open('cowqueue.out','w')  #write out
 

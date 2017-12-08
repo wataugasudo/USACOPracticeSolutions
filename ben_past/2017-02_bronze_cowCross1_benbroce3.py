@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=711]
+
 inFile = open('crossroad.in','r')   #read in
 outFile = open('crossroad.out','w') #write out
 

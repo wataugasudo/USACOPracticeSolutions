@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=687]
+
 inFile = open('notlast.in','r')     #read in
 outFile = open('notlast.out','w')   #write out
 

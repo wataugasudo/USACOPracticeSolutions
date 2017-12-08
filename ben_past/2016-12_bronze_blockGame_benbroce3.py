@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=664]
+
 import itertools
 
 inFile = open('blocks.in','r') #read in

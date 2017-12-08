@@ -1,3 +1,5 @@
+#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=689]
+
 inFile = open('cowtip.in','r')      #read in
 outFile = open('cowtip.out','w')    #write out
 
