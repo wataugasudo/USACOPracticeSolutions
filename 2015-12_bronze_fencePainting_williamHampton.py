@@ -10,7 +10,7 @@ for x in range(0,3,2):                                                  #loop ov
   for y in range(read_data[x],read_data[x+1]):                          #loop for each value in the interval
     fj.append(y)                                                        #append painted values to list
 
-fj = str(len(list(set(fj))))                                            #count length of painted values
+fj = str(len(list(set(fj))))                                            #organize values and remove duplicates, count length of painted values 
 
 with open('paint.out', 'w') as outfile:                                 #open outfile
   outfile.write(fj)                                                     #write to outfile
