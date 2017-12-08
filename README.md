@@ -7,3 +7,8 @@ To contribute, submit your single source file (tested on [USACO's analysis mode]
 For example:
 
 `2015-12_bronze_fencePainting_benbroce3.py`
+
+In the first line of your source code, place a comment with a link to the USACO problem it solves in square brackets.
+Python Example:
+
+`#Solves [http://usaco.org/index.php?page=viewproblem2&cpid=567]`
