@@ -14,3 +14,4 @@
 
 ### Java
   * [Java 7 API](https://docs.oracle.com/javase/7/docs/api/index.html?overview-summary.html): Official docs for Java
+  * [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html): Google's company style guide for Java
