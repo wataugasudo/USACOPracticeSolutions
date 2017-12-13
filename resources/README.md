@@ -1,5 +1,10 @@
 # USACO Resources
 
+### In This Directory
+* `skeleton.[extension]` files are competition templates for various languages
+* `REPLIT.md` is a guide to competing in / practicing for USACO via the browser on a Chromebook
+
+### General
 * [USACO Intro & Tips](https://docs.google.com/document/d/1S8PPepV-HRwnPo4LPam7DOQhhOal2MckkvtXLzFgEQE/edit): NCSSM Computer Science Club
 * [DevDocs](devdocs.io): Downloadable, searchable, open-source references for 100s of programming languages & libraries
 
