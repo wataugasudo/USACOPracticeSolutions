@@ -23,7 +23,7 @@ Then
 * Run to see if the generated output file is correct
 * Download your complete solution
     * Go to the main code tab & click [Download File] in the lower-left corner
-    * Rename to something you can remember with the .py extension locally
+    * Rename to the challenge name with the [.py/.java/.cpp] extension locally
 
 ### On [usaco.org](usaco.org):
 * Upload your code, & select your language
