@@ -22,7 +22,7 @@ Then
 * Write your code (the fun part!)
 * Run to see if the generated output file is correct
 * Download your complete solution
-    * Go to the main.py tab & clicking [Download File] in the lower-left corner
+    * Go to the main code tab & click [Download File] in the lower-left corner
     * Rename to something you can remember with the .py extension locally
 
 ### On [usaco.org](usaco.org):
