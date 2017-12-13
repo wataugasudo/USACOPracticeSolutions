@@ -13,7 +13,7 @@ If you haven't already, make an account & log in on both of the above websites.
 * Click [Add New File] to enter project mode, and name it the specified input filename for the challenge you're attempting
 
 OR
-* Fork one of my skeleton REPLs from [here](https://repl.it/@benbroce3))
+* Fork one of my skeleton REPLs from [here](https://repl.it/@benbroce3)
 * Rename FILENAME.in to the specified input filename for your the challenge you're attempting
 
 Then
