@@ -1,4 +1,5 @@
 # USACO Practice Solutions
+Solutions to past USACO algorithmic coding challenges. For more information about USACO & how to participate in the actual competition, see the [resources] directory & [the USACO website](usaco.org).
 
 ### To contribute:
 1. Verify that your code receives a perfect [10/10] score on [USACO's analysis mode](usaco.org)
